@@ -1,3 +1,12 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -124,3 +133,13 @@ body {
   padding-bottom: 10px;
   font-weight: bold;
 }
+.tabs-item-description {
+  animation-name: fadeIn;
+  animation-duration: 2.5s;
+}
+.tabs-item-title {
+  animation-name: fadeIn;
+  animation-duration: 2.5s;
+}
+
+
